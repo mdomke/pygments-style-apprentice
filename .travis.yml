@@ -1,0 +1,13 @@
+language: python
+python:
+- '3.6'
+deploy:
+  provider: pypi
+  user: mdomke
+  distributions: sdist bdist_wheel
+  password:
+    secure: LHEDs+IV0u5KiJ1bc3UlZZl2MyZxllxSkQPUs7G9YcWiZTjLphgZzVnzB+ElGq9LAg5HGjSyAh5qFLKAWkE2uR3xDM3YAd/3bfVtow77t/PKGx+4EEiz1BrCrCef44wxbSIiHwsW2Izr+O5mprnp9G8zBTQL2wTOBLpvuinQNOwm7HTcaisJCZnyIzWCYPN0Ukv419CskFYBLeeyPMDyDwUKfIIW/Ua5L6JBxvU5BdTyzm6OPy000uaTnbIfkEdMKiMQuwtXoJLVCUbOSTCGpruXcoWExjCUR6wMGaI9ap2/n+jmCJPihD2EEdejSwcVyj8KWnyM99UqvTxfKKvu1nvhSEiqEjfJSthHuXfcCgGzPEty1H1jmXM2t9WkMQBjarPqc1XS8Mr17WXjXx0JeeEwCvXM75MzaAfVOqKnlAVKGh/9ioMcFdQYeg7R3FRTJZ0OCeLy4UPPzizNdxmi1Uc9i0rR5pW9aKdLu3k+s6R4bepX1G88mJ81MFrQkk9iVnpgS2z3efjgrataiVVfw2FTRvbOiSYVqJB4Gy/10yhXXAHwWyph+b0PNv2YC1EVCemSxfNEEwapOPSbeb7x142LVVtntMZ4dZ8ne2ii7/N1VqylZlUS2pEXnBOLMBEBIheYExOSKmlLwP6VRTNjKQBIphhx8nNC91Q3g8G6am4=
+  on:
+    tags: true
+    all_branches: true
+    repo: mdomke/pygments-style-apprentice
