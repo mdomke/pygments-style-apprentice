@@ -1,3 +1,7 @@
+.. image:: https://img.shields.io/pypi/v/pygments-style-apprentice.svg
+    :target: https://pypi.python.org/pypi/pygments-style-apprentice
+
+
 Pygments style for Apprentice
 =============================
 
